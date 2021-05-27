@@ -1,0 +1,32 @@
+
+TODO
+Use this hex of yellow - fae375
+Use this hex of grey -  b0b2b5
+
+About Us
+->Our Services ( Stay Tuned, Coming soon)
+->About the Company
+
+Faq
+->All faqs stacked in one column
+
+Policies
+-> (Collect from Vishal)
+
+Contact Us
+
+-> Form
+    ->Name
+    ->Email Id
+    ->Dropdown for questions
+    ->Free Text
+    ->Would you like our team to get in touch with you?
+-> Only allow to download the brochure once they have filled in the details
+->Testimonials Section 
+
+-> When clicked on SBGF Tech, mail to info
+
+-> Timeline ( crypto evolution )
+
+
+
