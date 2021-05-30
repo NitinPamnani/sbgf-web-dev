@@ -108,7 +108,7 @@
     $(window).scroll(function(){
         var scrollbarLocation = $(this).scrollTop();
         scrolllink.each(function(){
-            var sectionOffset = $(this.hash).offset().top - 140;
+            var sectionOffset = $(this.hash).offset().top - 140
             if (sectionOffset <= scrollbarLocation){
                 $(this).parent().addClass('active');
                 $(this).parent().siblings().removeClass('active');
@@ -152,10 +152,10 @@
       }, 1000);
 
       //welcome particles
-      var particleElements = document.querySelector(".particles-js");
-      
-      for(let iterate = 0; iterate <= 0; iterate++) {
-        let id = particleElements.id
+      var particleElements = document.querySelectorAll(".particles-js");
+      var iterate = 1;
+      for(let element in particleElements) {
+        let id = element.id
 
         particlesJS(id,
 
@@ -181,7 +181,7 @@
               "nb_sides": 6
             },
             "image": {
-              "src": "assets/img/coins/coin2.png",
+              "src": "assets/img/coins/coin"+iterate+".png",
               "width": 100,
               "height": 100
             }
@@ -271,6 +271,7 @@
       }
   
       );
+        iterate++;
       }
 
 
