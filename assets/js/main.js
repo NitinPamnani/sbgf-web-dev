@@ -105,7 +105,7 @@
     //scrolling menu adding active class 
     var scrolllink = $('.scroll');
     
-    $(window).scroll(function(){
+    /*$(window).scroll(function(){
         var scrollbarLocation = $(this).scrollTop();
         scrolllink.each(function(){
             var sectionOffset = $(this.hash).offset().top - 140;
@@ -114,7 +114,7 @@
                 $(this).parent().siblings().removeClass('active');
             }
         })
-    })
+    })*/
       //mobile-menu
      $("#slick-nav").slicknav({
         prependTo:'.mobile-menu',
@@ -154,7 +154,8 @@
       //welcome particles
       var particleElements = document.querySelector(".particles-js");
       
-      for(let iterate = 0; iterate <= 0; iterate++) {
+      for(let iterate = 0; null!=particleElements && iterate <= 0; iterate++) {
+        
         let id = particleElements.id
 
         particlesJS(id,
@@ -284,6 +285,8 @@
   
     
     });
+
+    
 
 })(jQuery);
 
